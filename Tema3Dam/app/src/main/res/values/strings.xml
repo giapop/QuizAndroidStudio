@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Tema3Dam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_quiz_time">Image quiz time</string>
+    <string name="total_questions">Total întrebări: %1$d</string>
+    <string name="image_flash">Image Flash</string>
+    <string name="flag_image">flag image</string>
+    <string name="total_score">Scorul tău: %1$d/%2$d</string>
+    <string name="detalii_quiz">DETALII QUIZ</string>
+    <string name="name_user">Hello, %1$s!</string>
+    <string name="index_question">%1$d. %2$s</string>
+    <string name="correct_answer">CORRECT ANSWER</string>
+    <string name="rosu">Rosu</string>
+    <string name="_4650">4650</string>
+    <string name="feteasca_neagr">Feteasca Neagră</string>
+    <string name="restart">Restart</string>
+    <string name="quiz_time">QUIZ TIME</string>
+    <string name="next">NEXT</string>
+    <string name="answer_correct">Answer correct</string>
+    <string name="submit">Submit</string>
+    <string name="answer3">Answer3</string>
+    <string name="answer2">Answer2</string>
+    <string name="answer1">Answer1</string>
+    <string name="intrebarea">Intrebarea</string>
+    <string name="numarul_de_intrebari">Numarul de intrebari:</string>
+    <string name="hello_user">Hello, user!</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_your_name">Enter your name!</string>
+    <string name="start">Start</string>
+    <string name="detalii">Astăzi ne-am gândit să punem la dispoziția dumneavoastră un quiz ce oferă întrebări despre domeniul vinurilor pentru a face mai interactivă aplicația noastră și pentru a vedea cât de mult cunoașteți acest domeniu.</string>
+    <string name="final_score">Final Score</string>
+    <string name="scorul_tau">Scorul tau este de: 0/3 !</string>
+    <string name="error_message">Nu ați completat câmpul!</string>
+    <string name="question1">Care este cel mai căutat vin de români?</string>
+    <string name="question2">Cat costă cel mai vechi vin românesc?</string>
+    <string name="question3">Este un soi des întâlnit...</string>
+    <string name="correct1">Roșu</string>
+    <string name="correct2">4650</string>
+    <string name="correct3">Feteasca Neagră</string>
+    <string name="termina_quiz">Terminati quiz-ul inainte de a afla raspunsurile!</string>
+
+
+</resources>

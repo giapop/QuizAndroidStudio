@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ScoreFragment">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/final_score"
+    android:textAlignment="center"
+    android:textStyle="italic"
+    android:textAllCaps="true"
+    android:id="@+id/popescu_georgiana_score_txtview_finalscore"
+    app:layout_constraintStart_toEndOf="@id/popescu_georgiana_score_imgview_flash"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="8dp"
+    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_flash_on_24"
+        android:id="@+id/popescu_georgiana_score_imgview_flash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/image_flash"
+        android:layout_marginTop="8dp"
+       app:layout_constraintEnd_toStartOf="@id/popescu_georgiana_score_txtview_finalscore"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_sports_score_24"
+        android:id="@+id/popescu_georgiana_score_imgview_scoreflag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/flag_image"
+        app:layout_constraintTop_toBottomOf="@id/popescu_georgiana_score_imgview_flash"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/popescu_georgiana_score_txtview_score"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:text="@string/scorul_tau"
+    app:layout_constraintTop_toBottomOf="@id/popescu_georgiana_score_imgview_scoreflag"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

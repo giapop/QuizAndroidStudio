@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/listcolorbackground"
+    android:id="@+id/mainBackground">
+
+
+    <TextView
+        android:id="@+id/popescu_georgiana_txtview_wineshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/quiz_time"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:fontFamily="cursive"
+        app:layout_constraintBottom_toTopOf="@id/popescu_georgiana_framelayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/popescu_georgiana_framelayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/popescu_georgiana_txtview_wineshop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/popescu_georgiana_btnDetalii"
+        android:layout_gravity="center"
+        >
+
+    </FrameLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/popescu_georgiana_btnDetalii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/mainbtndetalii"
+        android:backgroundTint="#DC487A"
+        android:text="@string/detalii_quiz"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/popescu_georgiana_btnNext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/popescu_georgiana_framelayout"
+      />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/popescu_georgiana_btnNext"
+        android:text="@string/next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/popescu_georgiana_btnDetalii"
+        android:background="@drawable/mainbtndetalii"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
